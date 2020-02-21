@@ -1,0 +1,87 @@
+Appendix C. Acceptable Chronic Toxicity Data of Aluminum to Freshwater Aquatic Animals,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Values in bold used in SMAV calculation,,,,,,,,,
+Species,Total Hardness (mg/L as CaCO3),pH,"DOC
+(mg/L)",EC20 Endpoint,,"EC20
+(µg/L)",Reference,,"Normalized Conc.- EC20
+(µg/L)",Reason excluded from SMCV,,"SMCV-EC20
+(µg/L)","GMCV-EC20
+(µg/L)",,Genus,,DOC Notes,Dilution water
+,,,,,,,,,,,,,,,,,,
+"Oligochaete, Aeolosoma sp.",48.000,5.9500,0.2500,Reproduction (population size),,"1,235.0000",OSU 2012e; Cardwell et al. 2018,,"13,562",,,"13,562","13,562",,Aeolosoma,Invert,Author reported; half the detection limit,Soft Lab Recon water
+,,,,,,,,,,,,,,,,,,
+"Rotifer, Brachionus calyciflorus",100.000,6.4500,0.2500,Reproduction (population size),,431.0000,OSU 2012c; Cardwell et al. 2018,,"1,220",,,,,,Brachionus,,Author reported; half the detection limit,Mod Hard Lab Recon water
+"Rotifer, Brachionus calyciflorus",63.000,6.3000,1.3900,Reproduction (population size),,"1,751.0000",OSU 2018e,,"2,987",,,,,,Brachionus,,Author reported,Recon Lab water
+"Rotifer, Brachionus calyciflorus",105.000,6.3000,1.3900,Reproduction (population size),,"2,066.0000",OSU 2018e,,"2,541",,,,,,Brachionus,,Author reported,Recon Lab water
+"Rotifer, Brachionus calyciflorus",114.000,6.2000,2.6300,Reproduction (population size),,"3,061.0000",OSU 2018e,,"2,858",,,,,,Brachionus,,Author reported,Recon Lab water
+"Rotifer, Brachionus calyciflorus",105.000,6.1000,3.7700,Reproduction (population size),,"4,670.0000",OSU 2018e,,"4,398",,,,,,Brachionus,,Author reported,Recon Lab water
+"Rotifer, Brachionus calyciflorus",185.000,6.3000,1.3300,Reproduction (population size),,"1,604.0000",OSU 2018e,,"1,410",,,"2,340","2,340",,Brachionus,Invert,Author reported,Recon Lab water
+,,,,,,,,,,,,,,,,,,
+"Great pond snail, Lymnaea stagnalis",117.000,6.0000,0.2500,Biomass,,745.7000,OSU 2012b; Cardwell et al. 2018,,"3,931",,,,,,Lymnaea,,Author reported; half the detection limit,Recon Lab water (between mod hard and hard)
+"Great pond snail, Lymnaea stagnalis",121.000,6.1500,1.3700,Biomass,,833.4200,OSU 2018f,,"1,198",,,,,,Lymnaea,,Author reported,Recon Lab water
+"Great pond snail, Lymnaea stagnalis",124.000,6.1700,1.4500,Biomass,,"1,950.6000",OSU 2018f,,"2,580",,,,,,Lymnaea,,Author reported,Recon Lab water
+"Great pond snail, Lymnaea stagnalis",117.000,5.9800,3.8500,Biomass,,"1,392.4000",OSU 2018f,,"1,488",,,"2,062","2,062",,Lymnaea,Mollusk,Author reported,Recon Lab water
+,,,,,,,,,,,,,,,,,,
+"Fatmucket, Lampsilis siliquoidea",105.500,6.0400,0.3950,Biomass,,169.0000,"Wang et al. 2016, 2018",,678,,,678,678,,Lampsilis,Mollusk,Author reported,Well water/deionized water mix
+,,,,,,,,,,,,,,,,,,
+"Cladoceran, Ceriodaphnia dubia",50.000,7.1500,1.1000,Reproduction - young/starting adult,,"1,779.6000",McCauley et al. 1986,,"1,342",,,,,,Ceriodaphnia,,Value is from personal communication with R. Erickson who works at the Lab,Raw Lake Superior water
+"Cladoceran, Ceriodaphnia dubia",50.500,7.6100,1.1000,MATC: reproduction - young/starting adult),<,"1,100.0000",McCauley et al. 1986,<,612,f,,,,,Ceriodaphnia,,Value is from personal communication with R. Erickson who works at the Lab,UW-S Lake Superior lab water
+"Cladoceran, Ceriodaphnia dubia",25.000,7.6500,0.5000,Reproduction - young/female,,"1,557.0000",ENSR 1992b,,"1,720",,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Very Soft Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",47.000,7.7000,0.5000,Reproduction - young/female,,808.7300,ENSR 1992b,,712,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Soft Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",94.000,8.2000,0.5000,Reproduction - young/female,,651.9000,ENSR 1992b,,472,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Mod Hard Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",196.000,8.4500,0.5000,Reproduction - young/female,,683.6200,ENSR 1992b,,494,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Hard Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3400,0.5000,Reproduction,,36.6000,European Al Association 2010; Gensemer et al. 2018,,193,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",60.000,6.4000,0.5000,Reproduction,,160.3000,European Al Association 2010; Gensemer et al. 2018,,442,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Lab Recon water (between soft and mod hard)
+"Cladoceran, Ceriodaphnia dubia",120.000,6.3800,0.5000,Reproduction,,221.6000,European Al Association 2010; Gensemer et al. 2018,,410,,,,,,Ceriodaphnia,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3400,2.0000,Reproduction,,377.4000,European Al Association 2010; Gensemer et al. 2018,,869,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",60.000,6.3800,2.0000,Reproduction,,631.3000,European Al Association 2010; Gensemer et al. 2018,,785,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between soft and mod hard)
+"Cladoceran, Ceriodaphnia dubia",120.000,6.3700,2.0000,Reproduction,,"1,011.6000",European Al Association 2010; Gensemer et al. 2018,,829,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3300,4.0000,Reproduction,,622.6000,European Al Association 2010; Gensemer et al. 2018,,966,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",60.000,6.3000,4.0000,Reproduction,,692.9000,European Al Association 2010; Gensemer et al. 2018,,649,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between soft and mod hard)
+"Cladoceran, Ceriodaphnia dubia",120.000,6.3800,4.0000,Reproduction,,840.5000,European Al Association 2010; Gensemer et al. 2018,,449,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3700,2.0000,Reproduction,,353.0000,Gensemer et al. 2018,,770,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3400,2.0000,Reproduction,,452.4000,Gensemer et al. 2018,,"1,042",,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3500,2.0000,Reproduction,,439.7000,Gensemer et al. 2018,,994,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",25.000,7.0400,0.5000,Reproduction (young/female),,250.0000,CECM 2014; Gensemer et al. 2018,,463,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",120.000,7.1400,0.5000,Reproduction (young/female),,860.0000,CECM 2014; Gensemer et al. 2018,,709,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",25.000,7.9800,0.5000,Reproduction (young/female),,700.0000,CECM 2014; Gensemer et al. 2018, ,680,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",60.000,8.0300,0.5000,Reproduction (young/female),,"1,010.0000",CECM 2014; Gensemer et al. 2018,,786,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between soft and mod hard)
+"Cladoceran, Ceriodaphnia dubia",120.000,8.1000,0.5000,Reproduction (young/female),,870.0000,CECM 2014; Gensemer et al. 2018,,582,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",25.000,6.3400,0.5000,Reproduction (young/female),,260.0000,CECM 2014; Gensemer et al. 2018,,"1,370",,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between very soft and soft)
+"Cladoceran, Ceriodaphnia dubia",120.000,6.3600,0.5000,Reproduction (young/female),,390.0000,CECM 2014; Gensemer et al. 2018,,742,,,,,,Ceriodaphnia,,Author reported,Lab Recon water (between mod hard and hard)
+"Cladoceran, Ceriodaphnia dubia",64.000,6.4200,1.8700,Reproduction (young/female),,828.6000,OSU 2018a,,967,,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",133.000,6.3250,8.7100,Reproduction (young/female),,"3,829.0000",OSU 2018a,,"1,305",,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",138.000,6.3950,12.3000,Reproduction (young/female),,"6,224.0000",OSU 2018a,,"1,526",,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",428.000,6.2950,1.6400,Reproduction (young/female),,"2,011.0000",OSU 2018a,,917,,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",125.000,7.2050,6.5700,Reproduction (young/female),,"6,401.0000",OSU 2018a,,"1,067",,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",127.000,7.1850,12.0100,Reproduction (young/female),,"6,612.0000",OSU 2018a,,773,,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",263.000,8.1700,1.3000,Reproduction (young/female),,"3,749.0000",OSU 2018a,,"1,226",,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",425.000,8.2100,1.2000,Reproduction (young/female),,"2,852.0000",OSU 2018a,,907,,,,,,Ceriodaphnia,,Author reported,Lab Recon water
+"Cladoceran, Ceriodaphnia dubia",125.000,8.7000,1.0400,Reproduction (young/female),,"1,692.5000",OSU 2018a,,"1,011",,,781,781,,Ceriodaphnia,Invert,Author reported,Lab Recon water
+,,,,,,,,,,,,,,,,,,
+"Cladoceran, Daphnia magna",140.000,6.300,2.0000,Reproduction (young/female),,791.0000,European Al Association 2010; Gensemer et al. 2018,,651,,,651,651,,Daphnia,Invert,Author reported,Hard Lab Recon water
+,,,,,,,,,,,,,,,,,,
+"Amphipod, Hyalella azteca",95.000,6.350,0.5100,Biomass (28 d),,199.3000,OSU 2012h; Cardwell et al. 2018,,440,,,,,,Hyalella,,Author reported,Well water/reverse osmosis water mix
+"Amphipod, Hyalella azteca",106.000,6.040,0.3250,Biomass (28 d),,425.0000,"Wang et al. 2016, 2018",,"1,910",,,917,917,,Hyalella,Invert,Author reported,Well water/deionized water mix
+,,,,,,,,,,,,,,,,,,
+"Midge, Chironomus riparius",11.800,5.580,1.8000,Adult midge emergence,,29.5470,Palawski et al. 1989,,711,,,,,,Chironomus,,Based on Cleveland et al. 1989 reported values at a similar pH,Well water/reverse osmosis water mix
+"Midge, Chironomus riparius",11.900,5.050,1.8000,Adult midge emergence,,84.4160,Palawski et al. 1989,,"9,962",,,,,,Chironomus,,Based on Cleveland et al. 1989 reported values at a similar pH,Well water/reverse osmosis water mix
+"Midge, Chironomus riparius",91.000,6.600,0.5100,Reproduction (# of eggs/case),,"3,387.0000",OSU 2012f; Cardwell et al. 2018,,"5,409",,,"3,371","3,371",,Chironomus,Invert,Author reported,Well water/reverse osmosis water mix
+,,,,,,,,,,,,,,,,,,
+"Atlantic salmon, Salmo salar",12.700,5.700,1.8000,Biomass,,61.5640,McKee et al. 1989,,333.4,,,,,,Salmo,,Based on Cleveland et al. 1989 reported values at a similar pH,Well water/reverse osmosis water mix
+"Atlantic salmon, Salmo salar",12.700,5.700,1.8000,Survival,,154.2200,Buckler et al. 1995,,835,d,,333.4,333.4,,Salmo,Fish,Based on Cleveland et al. 1989 reported values at a similar pH,Well water/reverse osmosis water mix
+,,,,,,,,,,,,,,,,,,
+"Brook trout, Salvelinus fontinalis",12.300,6.550,1.9000,Biomass,,164.3500,Cleveland et al. 1989,,291,,,,,,Salvelinus,,Author reported,Well water/reverse osmosis water mix
+"Brook trout, Salvelinus fontinalis",12.800,5.650,1.8000,Biomass,,143.4700,Cleveland et al. 1989,,825,,,489.7,489.7,,Salvelinus,Fish,Author reported,Well water/reverse osmosis water mix
+,,,,,,,,,,,,,,,,,,
+"Fathead minnow, Pimephales promelas",220.000,7.700,1.6000,Biomass,,"6,193.6000",Kimball 1978,,"2,064",,,,,,Pimephales,,Value is from 2007 FW Cu AWQC Appendix C recommendation,Well water
+"Fathead minnow, Pimephales promelas",96.000,6.200,0.2500,Fry survival,,428.6000,OSU 2012g; Cardwell et al. 2018,,"1,653",,,"1,847","1,847",,Pimephales,Fish,Author reported; half the detection limit,Well water/reverse osmosis water mix
+,,,,,,,,,,,,,,,,,,
+"Zebrafish, Danio rerio",83.000,6.150,0.2500,Biomass,,234.4000,OSU 2013; Cardwell et al. 2018,,"1,030",,,"1,030","1,030",,Danio,Fish,Author reported; half the detection limit,Well water/reverse osmosis water mix
+,,,,,,,,,,,,,,,,,,
+"Wood frog, Rana sylvatica",115.000,4.690,1.6000,MATC-survival,>,"2,000.0000",Peles 2013,>,"8,199",,>,"8,199","8,199",>,Rana,Amphib - Other Data,Value is from 2007 FW Cu AWQC Appendix C recommendation,"Aged aerated tap water (McKeesport, PA)"
+"a LC=Life cycle, ELS=Early life-stage.",,,,,,,,,,,,,,,,,,
+"b Normalized to pH 7, hardness of 100 mg/L as CaCO3 and DOC of 1 mg/L (see Section 2.7.1). Values in bold are used in SMCV calculation.",,,,,,,,,,,,,,,,,,
+"c When definitive DOC values were not reported by the authors: a DOC value of 0.5 mg/L was used when dilution water was reconstituted, 1.1 mg/L when dilution water was Lake Superior water, 1.6 mg/L when dilution water was tap or well water, or half the detection limit when the reported value was less than the detection limit, based on recommendations in the 2007 Freshwater Copper AWQC (U.S. EPA 2007b).",,,,,,,,,,,,,,,,,,
+"d Buckler et al. (1995) appears to be a republication of McKee et al. (1989), but does not report the most sensitive endpoint and therefore only the most sensitive endpoint used for calculation of the SMCV.",,,,,,,,,,,,,,,,,,
+e DOC was taken from reported values in Cleveland et al. (1989) for a similar pH; all studies are from the same lab and used the same procedures to make the dilution water (well water plus reverse osmosis water mixture).,,,,,,,,,,,,,,,,,,
+"f Value is an MATC, poor dose response prevented an EC20 from being calculated; not used in SMCV calculation.",,,,,,,,,,,,,,,,,,
