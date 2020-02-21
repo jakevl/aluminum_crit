@@ -24,7 +24,7 @@
 
 # Load libraries (install packages if needed) ---------------------------------------------------
 library("dplyr")
-library("data.table")
+#library("data.table")
 
 # Set working directory where "final304a_acute.csv" and "final304a_chronic.csv" are located. 
 # Example: ("C:/Users/MyName/Documents/MyFolder")
@@ -132,7 +132,8 @@ criteria_calc <- function(pH, hardness, DOC) {
     mutate(N = length(Genus_Mean_Value_ug_L)) %>%
     mutate(Rank = c(1:length(Genus_Mean_Value_ug_L))) %>%
     filter(Rank %in% c(1:4)) %>%
-    mutate_at(vars(Rank, N), list(~as.numeric)) %>%
+    #mutate_at(vars(Rank, N), list(~as.numeric)) %>% # Error: Column `Rank` is of unsupported type function.
+    #mutate_at(vars(Rank, N), as.numeric) %>% # Works, but not sure what the goal is here. Rank and N are both initially integer columns. Converting or not to numeric doesn't appear to impact results. Outputs on test data with and without this line are identical. Recommend deleting.
     group_by(data) %>%
     mutate(lnGMV = log(Genus_Mean_Value_ug_L)) %>%
     mutate(lnGMV2 = lnGMV^2) %>%
@@ -160,12 +161,13 @@ criteria_calc <- function(pH, hardness, DOC) {
   ranks <- summary %>% 
     mutate(rowid = row_number()) %>% 
     select(rowid, Genus_Mean_Value_ug_L, Genus, Rank,data)
-  ranks <- melt(ranks, id.vars=c("rowid","Rank", "data")) 
+  ranks <- reshape2::melt(ranks, id.vars=c("rowid","Rank", "data")) 
   ranks$rowid <- 1
-  ranks <- dcast(ranks, rowid ~ Rank+data+variable, value.var="value") 
+  ranks <- reshape2::dcast(ranks, rowid ~ Rank+data+variable, value.var="value") 
   print_results <- cbind(df,ranks[,c(4:5,8:9,12:13,16:17,2:3,6:7,10:11,14:15)])
   return(print_results)
 }
+
 
 # Calculate CMC/CCCs ----------------------------------------------------------------------------
 # Edit placeholder text to locate water chemistry inputs (pH, hardness, DOC) data file.
@@ -196,7 +198,7 @@ results <-
     "PLACEHOLDER FOR DOC COLUMN NAME"
   )], 1, function(x)
     criteria_calc(x["PH COLUMN NAME"], x["HARDNESS COLUMN NAME"], x["DOC COLUMN NAME"]))
-results <- rbindlist(results)
+results <- data.table::rbindlist(results)
 
 # Edit placeholder text to specify column names of fields (e.g., site or sample ID, date) 
 # that you would like printed with your results.
