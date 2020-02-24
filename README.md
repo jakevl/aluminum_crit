@@ -22,7 +22,7 @@ sampID=paste0(rep('samp', 20), seq(1,20,1))
 test_data=data.frame(sampID, pH, Hardness_mgL, DOC_mgL)
 head(test_data)
 
-# Source the function (or include in a package)
+# Source the function (or include in and install from a package)
 source('calcAlCrit.R') # source the function from a local copy OR:
 devtools::source_url("https://github.com/utah-dwq/wqTools/blob/master/R/calcAlCrit.R?raw=TRUE") # Source function from GitHub
 
