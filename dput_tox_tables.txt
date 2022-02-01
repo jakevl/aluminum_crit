@@ -1,6 +1,6 @@
 
 
-tox_table=structure(list(Species = c("Worm, Nais elinguis", "Snail, Physa sp. ", 
+structure(list(Species = c("Worm, Nais elinguis", "Snail, Physa sp. ", 
 "Snail, Physa sp. ", "Snail, Physa sp. ", "Snail, Melanoides tuberculata", 
 "Fatmucket, Lampsilis siliquoidea", "Cladoceran, Ceriodaphnia dubia", 
 "Cladoceran, Ceriodaphnia dubia", "Cladoceran, Ceriodaphnia dubia", 

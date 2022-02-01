@@ -1,0 +1,113 @@
+---
+title: "Farmington and Bear River Bay Al criteria recalculation"
+author: "Jake Vander Laan"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true  
+    toc_float: true
+    fig_width: 8
+    fig_height: 8
+---
+
+# Introduction
+
+This document demonstrates how the [EPA 2018 aluminum criterion](https://www.epa.gov/wqc/2018-final-aquatic-life-criteria-aluminum-freshwater){target="_blank"} varies across pH, hardness, and DOC. 
+It also pilots the application of the [species deletion procedure](https://www.epa.gov/sites/production/files/2015-08/documents/revised_deletion_process_for_the_site-specific_recalculation_procedure_for_aquatic_life_criteria.pdf){target="_blank"} 
+to this criterion for Farmington and Bear River Bays of Great Salt Lake, showing the potential difference 
+between the original Al criteria and recalculated criteria based on Farmington Bay and Bear River Bay taxa. EPA published Al criterion calculator R code was wrapped into a function 
+within the DWQs wqTools R package to facilitate the calculation of the criterion across large datasets.
+
+# Libraries
+
+```{r, libraries}
+library(dplyr)
+library(wqTools)
+```
+
+# Test data
+
+Generating test data for pH (6 to 9.5), hardness (0 to 400 mg/L), and DOC (0 to 5 mg/L). This data allows application of the Al criterion calculator across a wide range of conditions to see how each factor impacts the criteria and how 
+the impact of the species deletion procedure and recalculation across a wide range of conditions.  
+
+```{r, test-data}
+pH=seq(6, 9.5, 0.5)
+Hardness_mgL=seq(0, 400, 50)
+DOC_mgL=seq(0, 5, 0.5)
+test_data=merge(pH, Hardness_mgL)
+names(test_data)=c('pH', 'Hardness_mgL')
+test_data=merge(test_data, DOC_mgL)
+names(test_data)=c('pH', 'Hardness_mgL', 'DOC_mgL')
+```
+
+# Unmodified criteria
+
+```{r, calc-orig}
+orig_crit=calcAlCrit(test_data, 'pH', 'Hardness_mgL', 'DOC_mgL')
+```
+
+```{r, echo=F, cmc-cfs, fig.cap="Figure 1. Unmodified CMC variability on correction factors."}
+par(mfrow=c(2,2))
+plot(Final_CMC~pH, orig_crit, ylab="CMC ug/L", xlab="pH")
+plot(Final_CMC~Hardness_mgL, orig_crit, ylab="CMC ug/L", xlab="Hardness (mg/L)")
+plot(Final_CMC~DOC_mgL, orig_crit, ylab="CMC ug/L", xlab="DOC (mg/L)")
+par(mfrow=c(1,1))
+```
+
+```{r, echo=F, ccc-cfs, fig.cap="Figure 2. Unmodified CCC variability on correction factors."}
+par(mfrow=c(2,2))
+plot(Final_CCC~pH, orig_crit, ylab="CCC ug/L", xlab="pH")
+plot(Final_CCC~Hardness_mgL, orig_crit, ylab="CCC ug/L", xlab="Hardness (mg/L)")
+plot(Final_CCC~DOC_mgL, orig_crit, ylab="CCC ug/L", xlab="DOC (mg/L)")
+par(mfrow=c(1,1))
+```
+
+
+
+# Species deletion & recalculation
+
+Species deleted:  
+1. Fatmucket, Lampsilis siliquoidea  
+2. Snail, Melanoides tuberculata  
+
+
+## Modify tox table
+
+```{r, mod-tt}
+tox_table_mod=dget('dput_tox_tables.txt')
+tox_table_mod=subset(tox_table_mod, !Species %in% c('Fatmucket, Lampsilis siliquoidea', 'Snail, Melanoides tuberculata'))
+```
+
+## Calculate modified criteria
+
+```{r, calc-mod}
+mod_crit=calcAlCrit(test_data, 'pH', 'Hardness_mgL', 'DOC_mgL', tox_table=tox_table_mod)
+```
+
+```{r, echo=F, mod-cmc, fig.cap="Figure 3. Species deletion modified versus unmodified Al CMC. Dashed line = 1:1 line. Solid line = regression line.", fig.width=6, fig.height=6}
+plot(mod_crit$Final_CMC~orig_crit$Final_CMC, main='CMC', xlab='Unmodified Al CMC', ylab='Recalculated Al CMC')
+abline(0,1, lwd=2, lty=2)
+lm=summary(lm(mod_crit$Final_CMC~orig_crit$Final_CMC))
+abline(lm$coefficients[[1]], lm$coefficients[[2]], lwd=2)
+```
+
+```{r, echo=F, mod-ccc, fig.cap="Figure 4. Species deletion modified versus unmodified Al CCC. Dashed line = 1:1 line. Solid line = regression line.", fig.width=6, fig.height=6}
+plot(mod_crit$Final_CCC~orig_crit$Final_CCC, main='CCC', xlab='Unmodified Al CCC', ylab='Recalculated Al CCC')
+abline(0,1, lwd=2, lty=2)
+lm=summary(lm(mod_crit$Final_CCC~orig_crit$Final_CCC))
+abline(lm$coefficients[[1]], lm$coefficients[[2]], lwd=2)
+```
+
+# Discussion points
+
+1. Deleted species for the FB & BRB recalculated Al criteria are not particularly sensitive taxa.  
+2. Recalculation for FB and BRB species has a relatively small impact on Al criteria.  
+3. Data points and the regression lines in figures 3 & 4 primarily fall below the 1:1 line, showing that recalculated criteria tend to be lower than the unmodified criteria under almost all combinations of correction factors.
+
+
+
+
+
+
+
+
