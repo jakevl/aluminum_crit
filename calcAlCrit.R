@@ -474,9 +474,9 @@ calcAlCrit <- function(x, pH='pH', hardness='Hardness_mgL', DOC='DOC_mgL', inc_r
 
   ## Check inputs against bounds, apply caps if necessary
   data=within(data, {
-  	Flag=ifelse(pH <= 10.5 &
-                pH >= 5 &
-                hardness <= 430 &
+  	Flag=ifelse(pH <= 10.5 |
+                pH >= 5 |
+                hardness <= 430 |
                 DOC <= 12,
                 NA,
                 "One or more factors outside MLR model bounds. Caps applied.")
